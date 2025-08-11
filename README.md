@@ -141,7 +141,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 ## 👩‍💻 Autora
 
-**Natasha** - [Seu perfil do GitHub](https://github.com/NatashaB-randao)
+**Natasha** - [GitHub](https://github.com/NatashaB-randao)
 
 ## 🙏 Agradecimentos
 
