@@ -40,7 +40,7 @@ Este repositório contém todos os materiais, códigos e projetos desenvolvidos 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Python 3.13.6** - Linguagem principal
+- **Python 3.x** - Linguagem principal
 - **Pandas** - Manipulação e análise de dados
 - **NumPy** - Computação numérica
 - **Matplotlib** - Visualização de dados
@@ -117,7 +117,7 @@ O dashboard desenvolvido na Aula 04 permite:
 - Visualizações responsivas
 - Métricas em tempo real
 
-**[Link do Dashboard]** - *(Adicione aqui o link quando fizer o deploy)*
+**[🔗 Acesse o Dashboard](https://imersao-dados-com-python-alura2025.streamlit.app/)**
 
 ## 📈 Principais Insights Descobertos
 
@@ -141,7 +141,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 ## 👩‍💻 Autora
 
-**Natasha** - [Seu perfil do GitHub](https://github.com/seu-usuario)
+**Natasha** - [Seu perfil do GitHub](https://github.com/NatashaB-randao)
 
 ## 🙏 Agradecimentos
 
