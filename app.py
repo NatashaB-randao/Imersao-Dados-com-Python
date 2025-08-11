@@ -7,10 +7,10 @@ import plotly.express as px
 st.set_page_config(
     page_title="Dashboard de Salários na Área de Dados",
     page_icon="📊",
-    layout="wide"
+    layout="wide",
 )
 
-# --- Carregamento dos Dados ---
+# --- Carregamento dos dados ---
 df = pd.read_csv("https://raw.githubusercontent.com/vqrca/dashboard_salarios_dados/refs/heads/main/dados-imersao-final.csv")
 
 # --- Barra Lateral (Filtros) ---
@@ -18,14 +18,11 @@ st.sidebar.header("🔍 Filtros")
 
 # Filtro de Ano
 anos_disponiveis = sorted(df['ano'].unique())
+anos_selecionados = st.sidebar.multiselect("Ano", anos_disponiveis, default=anos_disponiveis)
 
 # Filtro de Senioridade
 senioridades_disponiveis = sorted(df['senioridade'].unique())
-senioridades_selecionadas = st.sidebar.multiselect(
-    "Selecione as senioridades:",
-    senioridades_disponiveis, 
-    default=senioridades_disponiveis
-)
+senioridades_selecionadas = st.sidebar.multiselect("Senioridade", senioridades_disponiveis, default=senioridades_disponiveis)
 
 # Filtro por Tipo de Contrato
 contratos_disponiveis = sorted(df['contrato'].unique())
